@@ -1,0 +1,17 @@
+[package]
+name = "n2soc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Miranquil <miranquil@gmail.com>"]
+rust-version = "1.71.0"
+description = "Nioh 2 save data ownership converter"
+readme = "README.md"
+license = "GPL-3"
+license-file = "LICENSE"
+include = ["src/**/*", "Cargo.toml", "LICENSE", "README.md"]
+repository = "https://github.com/TMSTB/n2soc"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.3.19", features = ["derive"] }
